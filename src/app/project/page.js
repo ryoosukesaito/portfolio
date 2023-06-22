@@ -1,4 +1,4 @@
-import CONSTANT_DATA from "../constants/constants";
+import { PROJECTS } from "../constants/constants";
 import Image from "next/image";
 
 function Project() {
@@ -21,7 +21,7 @@ function Project() {
             <div className="text-[30px] md:pl-10 md:text-[40px] lg:text-[50px] text-text-color1">
               My Projects
             </div>
-            {CONSTANT_DATA.PROJECTS.map((item, idx) => (
+            {Object.values(PROJECTS).map((item, idx) => (
               <div
                 key={idx}
                 className="my-10 min-[769px]:my-20 flex flex-col  xl:flex-row max-w-fit"

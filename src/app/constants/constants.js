@@ -12,9 +12,10 @@ import {
   SiTailwindcss,
   SiFigma,
 } from "react-icons/si";
+
 import { FaSass, FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
-const SKILL_ICONS = {
+export const SKILL_ICONS = {
   html: {
     icon: <SiHtml5 />,
     name: "HTML",
@@ -69,7 +70,7 @@ const SKILL_ICONS = {
   },
 };
 
-const PROJECTS = [
+export const PROJECTS = [
   {
     image: "/assets/whistleblow-admin.png",
     title: "Whistleblowing system",
@@ -107,7 +108,7 @@ const PROJECTS = [
   },
 ];
 
-const CONTACTS = [
+export const CONTACTS = [
   {
     icon: <FaGithub />,
     link: "https://github.com/ryoosukesaito",
@@ -121,9 +122,3 @@ const CONTACTS = [
     link: "https://www.facebook.com/ryousuke.saito.18/",
   },
 ];
-
-export default {
-  SKILL_ICONS,
-  PROJECTS,
-  CONTACTS,
-};
