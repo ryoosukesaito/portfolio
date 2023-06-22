@@ -1,6 +1,7 @@
-import { SKILL_ICONS } from "./constants/page";
+import CONSTANT_DATA from "./constants/page";
 
 export default function Page() {
+  console.log(CONSTANT_DATA);
   return (
     <div className="my-5 lg:my-10 lg:px-10 overflow-hidden w-screen">
       <div className="flex flex-col justify-center mx-5 relative z-30">
@@ -50,7 +51,7 @@ export default function Page() {
             </h3>
             <div className="flex justify-start items-start pt-3">
               <div className="text-[#5F6367] grid grid-flow-row grid-cols-5 gap-3 md:gap-8">
-                {Object.values(SKILL_ICONS).map((skill, idx) => (
+                {Object.values(CONSTANT_DATA.SKILL_ICONS).map((skill, idx) => (
                   <div key={idx}>
                     <div className="md:m-5">
                       <i className="text-[60px] m-0 flex justify-center items-center">

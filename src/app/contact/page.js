@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useForm, ValidationError } from "@formspree/react";
 
-import { CONTACTS } from "../constants/page";
+import CONSTANT_DATA from "../constants/page";
 import { BiPaperPlane } from "react-icons/bi";
 import { BsFillCheckCircleFill } from "react-icons/bs";
 
@@ -35,7 +35,7 @@ function Contact() {
                 send me a message here!
               </p>
               <div className="flex flex-row items-center justify-start md:justify-center mt-7 text-[#5F6367] hover:text-black">
-                {Object.values(CONTACTS).map((item, idx) => (
+                {CONSTANT_DATA.CONTACTS.map((item, idx) => (
                   <Link
                     href={item.link}
                     className="text-[40px] mx-3 text-[#5F6367] hover:text-black"
