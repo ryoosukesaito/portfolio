@@ -1,7 +1,6 @@
 import CONSTANT_DATA from "./constants/page";
 
 export default function Page() {
-  console.log(CONSTANT_DATA);
   return (
     <div className="my-5 lg:my-10 lg:px-10 overflow-hidden w-screen">
       <div className="flex flex-col justify-center mx-5 relative z-30">
