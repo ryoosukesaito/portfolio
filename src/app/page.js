@@ -1,4 +1,4 @@
-import CONSTANT_DATA from "./constants/page";
+import CONSTANT_DATA from "./constants/constants";
 
 export default function Page() {
   return (

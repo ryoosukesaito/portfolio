@@ -1,4 +1,4 @@
-import CONSTANT_DATA from "../constants/page";
+import CONSTANT_DATA from "../constants/constants";
 import Image from "next/image";
 
 function Project() {
