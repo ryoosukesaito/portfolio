@@ -1,4 +1,4 @@
-import CONSTANT_DATA from "./constants/constants";
+import { SKILL_ICONS } from "./constants/constants";
 
 export default function Page() {
   return (
@@ -50,7 +50,7 @@ export default function Page() {
             </h3>
             <div className="flex justify-start items-start pt-3">
               <div className="text-[#5F6367] grid grid-flow-row grid-cols-5 gap-3 md:gap-8">
-                {Object.values(CONSTANT_DATA.SKILL_ICONS).map((skill, idx) => (
+                {Object.values(SKILL_ICONS).map((skill, idx) => (
                   <div key={idx}>
                     <div className="md:m-5">
                       <i className="text-[60px] m-0 flex justify-center items-center">
