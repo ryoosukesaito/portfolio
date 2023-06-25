@@ -106,6 +106,14 @@ export const PROJECTS = [
     ],
     url: "https://github.com/ryoosukesaito/Final-Node-MERN.git",
   },
+  {
+    image: "/assets/my_portfolio.png",
+    title: "Portfolio",
+    date: "May",
+    description: ``,
+    tools: ["Next.js", "Tailwind"],
+    url: "https://github.com/ryoosukesaito/portfolio.git",
+  },
 ];
 
 export const CONTACTS = [
