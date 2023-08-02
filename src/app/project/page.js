@@ -1,4 +1,5 @@
-import { PROJECTS } from "../constants/constants";
+import React from "react";
+import { PROJECTS } from "../constants/page";
 import Image from "next/image";
 
 function Project() {

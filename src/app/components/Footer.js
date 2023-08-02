@@ -1,3 +1,4 @@
+import React from "react";
 import { AiOutlineCopyrightCircle } from "react-icons/ai";
 
 function Footer() {
