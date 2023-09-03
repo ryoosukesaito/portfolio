@@ -1,4 +1,4 @@
-import { SKILL_ICONS } from "./constants/page";
+import { SKILL_ICONS } from "./constants/constants";
 
 export default function Page() {
   return (

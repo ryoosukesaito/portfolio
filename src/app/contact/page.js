@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useForm, ValidationError } from "@formspree/react";
 
-import { CONTACTS } from "../constants/page";
+import { CONTACTS } from "../constants/constants";
 import { BiPaperPlane } from "react-icons/bi";
 import { BsFillCheckCircleFill } from "react-icons/bs";
 
