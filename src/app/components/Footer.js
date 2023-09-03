@@ -1,12 +1,13 @@
+import React from "react";
 import { AiOutlineCopyrightCircle } from "react-icons/ai";
 
 function Footer() {
   return (
     <div className="flex justify-center">
       <div className="my-7 flex flex-row justify-between max-w-md">
-        <p className="flex flex-row justify-center items-center mx-5">
+        <p className="flex flex-row justify-center items-center mx-5 text-xs sm:text-base">
           <AiOutlineCopyrightCircle />
-          2023 Ryosuke Saito
+          2023 Ryosuke Saito. All Rights Reserved.
         </p>
       </div>
     </div>
