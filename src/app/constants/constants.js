@@ -113,7 +113,8 @@ export const PROJECTS = [
     image: "/assets/my_portfolio.png",
     title: "Portfolio",
     date: "May",
-    description: ``,
+    description:
+      "This is my portfolio, showcasing the projects I have worked on and my skills. This project is created using Next.js and designed in Figma.",
     tools: ["Next.js", "Tailwind"],
     url: "https://github.com/ryoosukesaito/portfolio.git",
   },
