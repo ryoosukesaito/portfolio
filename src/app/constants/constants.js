@@ -92,10 +92,13 @@ export const PROJECTS = [
     url: "https://github.com/ryoosukesaito/Frontend-whistleblowing.git",
   },
   {
-    image: "/assets/realtime-chat.png",
+    image: "/assets/realtime-chat01.png",
     title: "Real Time Chat App",
     date: "February",
-    description: `Real-time Chat App using Socket.io.`,
+    description: `This web application is a chat application that reflects user activity in real-time.
+    It shows messages sent and received, user login status, typing status, etc.
+    It is my first full-stack project written using React and Node.
+    It was a challenge for me to design a database that would separate chat groups for individual users and chat groups for all users.`,
     tools: [
       "React.js",
       "Node.js",
@@ -110,7 +113,8 @@ export const PROJECTS = [
     image: "/assets/my_portfolio.png",
     title: "Portfolio",
     date: "May",
-    description: ``,
+    description:
+      "This is my portfolio, showcasing the projects I have worked on and my skills. This project is created using Next.js and designed in Figma.",
     tools: ["Next.js", "Tailwind"],
     url: "https://github.com/ryoosukesaito/portfolio.git",
   },

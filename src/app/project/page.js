@@ -55,14 +55,14 @@ function Project() {
                   </div>
                 </div>
 
-                <div className="flex flex-col max-w-lg mx-10 w-full">
+                <div className="flex flex-col max-w-lg lg:mx-10 w-full">
                   <h1 className="hidden xl:block text-[25px] text-text-color1 border-b-2">
                     {item.title}
                   </h1>
                   <div className="flex justify-end text-[15px] ">
                     <p className="hidden xl:block">-{item.date}</p>
                   </div>
-                  <div className="pl-3 mt-3 max-w-fit">
+                  <div className="pl-3 mt-3 max-w-fit ">
                     <p>{item.description}</p>
 
                     <div className="flex flex-row flex-wrap ">

@@ -49,7 +49,7 @@ function Contact() {
 
             {/* Contact form */}
             <div className="justify-center items-center bg-gray-100  w-full h-auto rounded-xl shadow-lg shadow-gray-400 py-5">
-              <div className="p-10">
+              <div className="py-10 px-6 md:p-10 ">
                 <form onSubmit={handleSubmit}>
                   <div className="flex flex-col">
                     <label className="text-sm py-2">
