@@ -22,11 +22,10 @@ function Project() {
             <div className="text-[30px] md:pl-10 md:text-[40px] lg:text-[50px] text-text-color1">
               My Projects
             </div>
-
             {Object.values(PROJECTS).map((item, idx) => (
               <div
                 key={idx}
-                className="my-10 min-[769px]:my-20 flex flex-col  xl:flex-row xl:justify-start w-full"
+                className="my-10 min-[769px]:my-20 flex flex-col  xl:flex-row max-w-fit"
               >
                 <div className="xl:hidden flex flex-col mb-5">
                   <h1 className="text-[20px] lg:text-[23px] text-text-color1 mb-3 border-b-2">
@@ -55,17 +54,17 @@ function Project() {
                   </div>
                 </div>
 
-                <div className="flex flex-col max-w-lg lg:mx-10 w-full">
+                <div className="flex flex-col max-w-lg mx-10">
                   <h1 className="hidden xl:block text-[25px] text-text-color1 border-b-2">
                     {item.title}
                   </h1>
                   <div className="flex justify-end text-[15px] ">
                     <p className="hidden xl:block">-{item.date}</p>
                   </div>
-                  <div className="pl-3 mt-3 max-w-fit ">
+                  <div className="pl-3 mt-3 max-w-fit">
                     <p>{item.description}</p>
 
-                    <div className="flex flex-row flex-wrap ">
+                    <div className="flex flex-row flex-wrap">
                       {Object.values(item.tools).map((tool, idx) => (
                         <p
                           className="text-white rounded-full bg-[#FFCA6E]/80 px-2 text-sm mr-3 mt-2 w-fit whitespace-nowrap"
