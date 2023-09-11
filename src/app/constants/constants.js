@@ -74,7 +74,7 @@ export const PROJECTS = [
   {
     image: "/assets/whistleblow-admin.png",
     title: "Whistleblowing system",
-    date: "February 2023 to April 2023",
+    date: "2 Months",
     description: `A whistleblower application that allows anonymous
     submissions. Employees and HR people are target users.
     Employee reports and account data are encrypted and secured.
@@ -94,7 +94,7 @@ export const PROJECTS = [
   {
     image: "/assets/realtime-chat01.png",
     title: "Real Time Chat App",
-    date: "February",
+    date: "1 week",
     description: `This web application is a chat application that reflects user activity in real-time.
     It shows messages sent and received, user login status, typing status, etc.
     It is my first full-stack project written using React and Node.
@@ -108,6 +108,15 @@ export const PROJECTS = [
       "Socket.io",
     ],
     url: "https://github.com/ryoosukesaito/Final-Node-MERN.git",
+  },
+  {
+    image: "/assets/trello-clone-app.png",
+    title: "Trello Clone App",
+    date: "3days",
+    description:
+      "This is Todo App Implemented Authentication and attached Creator data into each ticket. New Account is creatable",
+    tools: ["Typescript", "Tailwind", "Appwrite"],
+    url: "https://github.com/ryoosukesaito/Trello-clone-app",
   },
   {
     image: "/assets/my_portfolio.png",
