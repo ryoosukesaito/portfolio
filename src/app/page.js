@@ -53,7 +53,7 @@ export default function Page() {
                 {Object.values(SKILL_ICONS).map((skill, idx) => (
                   <div key={idx}>
                     <div className="md:m-5">
-                      <i className="text-[60px] m-0 flex justify-center items-center p-1 md:p-0">
+                      <i className="text-[60px] m-0 flex justify-center items-center">
                         {skill.icon}
                       </i>
                       <p className="flex justify-center text-[12px] md:text-[16px]">

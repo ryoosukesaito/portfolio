@@ -5,9 +5,9 @@ function Footer() {
   return (
     <div className="flex justify-center">
       <div className="my-7 flex flex-row justify-between max-w-md">
-        <p className="flex flex-row justify-center items-center mx-5 text-xs sm:text-base">
+        <p className="flex flex-row justify-center items-center mx-5">
           <AiOutlineCopyrightCircle />
-          2023 Ryosuke Saito. All Rights Reserved.
+          2023 Ryosuke Saito
         </p>
       </div>
     </div>

@@ -122,7 +122,7 @@ export default function Navbar() {
                 </li>
               ))}
               <a
-                href="/assets/my_resume.pdf"
+                href="/assets/resume-ryosuke_saito.pdf"
                 className="mx-6 my-2 "
                 target="_blank"
               >
