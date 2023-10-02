@@ -72,7 +72,7 @@ export default function Navbar() {
                 </Link>
               </li>
             ))}
-            <a href="/assets/my_resume.pdf" target="_blank">
+            <a href="/assets/resume-ryosuke_saito.pdf" target="_blank">
               <button className="uppercase px-2 py-1 rounded-lg bg-[#FFCA6E] border-2 border-[#ffca6e] text-white hover:bg-white hover:text-[#FFCA6E]">
                 Resume
               </button>
