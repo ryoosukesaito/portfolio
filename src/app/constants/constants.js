@@ -115,8 +115,27 @@ export const PROJECTS = [
     date: "3days",
     description:
       "This is Todo App Implemented Authentication and attached Creator data into each ticket. New Account is creatable",
-    tools: ["Typescript", "Tailwind", "Appwrite"],
+    tools: ["Typescript", "Tailwind", "Appwrite", "Zustand"],
     url: "https://github.com/ryoosukesaito/Trello-clone-app",
+  },
+  {
+    image: "/assets/meal-ordering-app.png",
+    title: "Meal ordering app",
+    date: "Sep",
+    description:
+      "The application serves as an ordering platform for restaurants, catering to two distinct user groups: administrators and customers. Administrators possess the ability to oversee and manage the menu, while customers have the opportunity to make selections according to their preferences.",
+    tools: [
+      "Typescript",
+      "Next.js",
+      "firebase",
+      "GraphQL",
+      "Zustand",
+      "Tailwind",
+      "Cloudinary",
+      "vercel",
+      "render",
+    ],
+    url: "https://github.com/ryoosukesaito/Meal-ordering-app",
   },
   {
     image: "/assets/my_portfolio.png",
